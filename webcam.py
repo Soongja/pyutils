@@ -10,7 +10,6 @@ if __name__ == '__main__':
     while cap.isOpened():
         ret, frame = cap.read()
         frame = cv2.flip(frame, 1)
-        print(frame.shape)
 
         if ret:
             frames += 1
