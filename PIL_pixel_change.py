@@ -1,3 +1,4 @@
+import numpy as np
 from PIL import Image
 
 img = Image.open('mask.png')
@@ -13,3 +14,6 @@ for i in range(img.size[0]):
 img = img.resize((224, 224))
 img = img.convert('L')
 img.save('mask_converted.png')
+
+np_img = np.array(img)
+print(np_img)
