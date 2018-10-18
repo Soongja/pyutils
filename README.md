@@ -1,6 +1,9 @@
 # Collection of Python utilitiy codes for
 
-- python programming(numpy)
-- image processing(pillow, opencv)
+- python programming
+- numpy
+- opencv
+- pillow
 - deep learning(pytorch, tensorflow)
 - etc.
+
